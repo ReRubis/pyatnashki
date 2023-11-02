@@ -1,0 +1,19 @@
+[project]
+name = "pyatnashki"
+version = "0.1"
+description = ""
+authors = [
+    {name = "ReRubis", email = "slesarenkod@gmail.com"},
+]
+dependencies = [
+    "fastapi[all]>=0.104.1",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "flake8>=6.1.0",
+    "autopep8>=2.0.4",
+]
